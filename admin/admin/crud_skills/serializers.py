@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import Skills, Person
 
+
 class SkillsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Skills
